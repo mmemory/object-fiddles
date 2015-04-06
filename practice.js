@@ -254,21 +254,22 @@ var colt = {
     name: 'Colt',
     position: 'Everything really',
     spiritAnimal: 'Young Male Horse'
-}
+};
 
 /*Above you're given an empty array with four objects. Fill the devMountainEmployees
 array with those four objects. After that console.log the length of the Array and make
 sure that it's equal to 4. */
 
-  //Code Here
+devMountainEmployees.push(tyler, cahlan, ryan, colt);
 
 /*Now let's say Cahlan has a mental breakdown and has to take a leave of absense to 'find himself'.
 Loop through your devMountainEmployees until you find cahlan, then remove him from the array.*/
 
-  //Code Here
-
-
-
+for (i = 0; i < devMountainEmployees.length; i++) {
+    if (devMountainEmployees[i].name === 'Cahlan') {
+        devMountainEmployees.splice(i, 1);
+    }
+}
 
 //NEXT PROBLEM
 
