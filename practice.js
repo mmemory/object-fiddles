@@ -189,12 +189,11 @@ var user = {
 //Let's say I, the user, decided to change my name and email address to the following
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
-  //Code Here
+
 
 //Now call the sayName method that's on the user object which will alert the users email
 
-  //Code Here
-
+user.sayName();
 
 
 
