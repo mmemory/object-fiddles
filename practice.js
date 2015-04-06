@@ -74,12 +74,21 @@ console.log(backPack);
 
 //Create another 'me' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
 
-  //Code Here
+var me = {
+    name: 'Michael',
+    age: 5,
+    height: '6 ft',
+    gender: 'male',
+    married: false,
+    eyeColor: 'brown',
+    hairColor: 'brown'
+};
 
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
-  //Code Here
-
+for (var i in me) {
+    alert(i + " --> " + me[i]);
+}
 
 
 
